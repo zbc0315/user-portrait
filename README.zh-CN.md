@@ -32,6 +32,18 @@ Claude 发现新信号 ──► Edit 更新画像文件 ──► PostToolUse h
 
 默认安装到 user 作用域（`~/.claude/settings.json`），即**所有项目全局生效**。
 
+### OpenClaw agent（ClawHub）
+
+[`openclaw/`](openclaw/) 目录提供无 hooks 的 skill 变体，已发布到 ClawHub——规则相同、画像文件相同（与插件并存时共享同一份画像），无需 Claude Code：
+
+```
+clawhub install user-portrait
+```
+
+基于 hooks 的每条消息自动学习是 Claude Code 插件独有的；skill 变体通过常驻指令实现同样的实践。
+
+### 本地开发
+
 本地开发调试（仅当前会话）：
 
 ```bash
@@ -99,6 +111,7 @@ user-portrait/
 ├── scripts/post-tool.sh          # 本会话编辑画像后同步状态，避免自我重注入
 ├── templates/profile-template.md # 画像初始模板（首次运行自动生成）
 ├── skills/portrait/SKILL.md      # /user-portrait:portrait 管理技能
+├── openclaw/                     # 无 hooks 的 skill 变体（已发布到 ClawHub）
 ├── CHANGELOG.md                  # 更新日志
 ├── LICENSE                       # MIT 许可证
 ├── README.md                     # 英文文档（默认）

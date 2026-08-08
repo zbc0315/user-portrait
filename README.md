@@ -34,6 +34,18 @@ From GitHub:
 
 By default the plugin installs at user scope (`~/.claude/settings.json`), so it is active in **all** your projects.
 
+### For OpenClaw agents (ClawHub)
+
+A hook-free skill variant ships in [`openclaw/`](openclaw/) and is published on ClawHub — same rules, same portrait file (shared with the plugin if both are installed), no Claude Code required:
+
+```
+clawhub install user-portrait
+```
+
+Automatic per-message learning via hooks is exclusive to the Claude Code plugin; the skill variant applies the same practice through its standing instructions.
+
+### Local development
+
 For local development (current session only):
 
 ```bash
@@ -101,6 +113,7 @@ user-portrait/
 ├── scripts/post-tool.sh          # sync state after this session's own profile edits
 ├── templates/profile-template.md # initial profile template (seeded on first run)
 ├── skills/portrait/SKILL.md      # /user-portrait:portrait management skill
+├── openclaw/                     # hook-free skill variant published on ClawHub
 ├── CHANGELOG.md                  # release history
 ├── LICENSE                       # MIT
 ├── README.md                     # this file
