@@ -1,0 +1,20 @@
+{
+  "name": "user-portrait",
+  "version": "0.1.0",
+  "description": "Learns a global user portrait from every message and adapts every reply to the user's language and knowledge level. Profile is shared across all projects and sessions. 学习用户画像，输出用户能看懂的语言。",
+  "author": {
+    "name": "zbc0315",
+    "url": "https://github.com/zbc0315"
+  },
+  "homepage": "https://github.com/zbc0315/user-portrait",
+  "repository": "https://github.com/zbc0315/user-portrait",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "user-profile",
+    "personalization",
+    "adaptive-communication",
+    "memory"
+  ]
+}

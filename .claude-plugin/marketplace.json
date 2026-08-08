@@ -1,0 +1,14 @@
+{
+  "name": "user-portrait",
+  "owner": {
+    "name": "zbc0315",
+    "url": "https://github.com/zbc0315"
+  },
+  "plugins": [
+    {
+      "name": "user-portrait",
+      "description": "Learns a global user portrait from every message and adapts every reply to it. 学习用户画像，输出用户能看懂的语言。",
+      "source": "./"
+    }
+  ]
+}
