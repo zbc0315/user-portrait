@@ -1,6 +1,6 @@
 {
   "name": "user-portrait",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Learns a global user portrait from every message and adapts every reply to the user's language and knowledge level. Profile is shared across all projects and sessions. 学习用户画像，输出用户能看懂的语言。",
   "author": {
     "name": "zbc0315",

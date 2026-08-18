@@ -91,12 +91,11 @@ portrait and stop applying these instructions until reminders reappear.
    Merge into existing sections; prefer refining an existing line over adding
    a new one; move items between sections as evidence changes (e.g. from
    "needs explanation" to "understands" once demonstrated); remove claims
-   contradicted by new evidence. Add one dated line to the Evidence log per
-   new claim, naming the signal in the abstract — never filenames, commands,
-   project names, or job specifics (keep at most 10 evidence lines and the
-   whole file under 100 lines — compress before it grows past that) and
-   update the "Last updated" date. NEVER store task details, project
-   content, secrets, credentials, or one-off context.
+   contradicted by new evidence. Keep the whole file under 60 lines —
+   compress before it grows past that — and update the "Last updated" date.
+   Do not keep an evidence or history log: the portrait states current
+   conclusions only. NEVER store task details, project content, secrets,
+   credentials, or one-off context.
 
    PERMISSIONS: the first portrait write in a session may trigger a
    permission prompt — that is expected. If the user DECLINES it, make no

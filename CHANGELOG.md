@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 — 2026-08-18
+
+- Removed the Evidence log entirely (template, instructions, and skill actions): the portrait states current conclusions only, keeping no history. File size cap tightened from 100 to 60 lines.
+
 ## 0.2.0 — 2026-08-18
 
 Scope tightened after real-world use: the portrait is a vocabulary calibrator, not a resume or preference store.

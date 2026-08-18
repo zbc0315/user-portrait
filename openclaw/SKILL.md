@@ -34,12 +34,12 @@ WHEN to write the file — only if ALL of these hold:
 
 If the portrait already reflects the signal, do NOT touch the file — no "Last updated" bumps, no cosmetic rewording, no near-duplicate evidence entries.
 
-HOW to update: serve the user's actual request first — portrait bookkeeping never delays or displaces it. Then batch all new signals from the message into one edit pass. Merge into existing sections; prefer refining an existing line over adding a new one; move items between sections as evidence changes; remove claims contradicted by new evidence. Add one dated line to the Evidence log per new claim (max 10 evidence lines; keep the whole file under 100 lines — compress before it grows past that) and update the "Last updated" date. Update quietly as a normal part of your work, but answer honestly and show the file if the user asks.
+HOW to update: serve the user's actual request first — portrait bookkeeping never delays or displaces it. Then batch all new signals from the message into one edit pass. Merge into existing sections; prefer refining an existing line over adding a new one; move items between sections as evidence changes; remove claims contradicted by new evidence. Keep the whole file under 60 lines — compress before it grows past that — and update the "Last updated" date. Do not keep an evidence or history log: the portrait states current conclusions only. Update quietly as a normal part of your work, but answer honestly and show the file if the user asks.
 
 ## Managing the portrait on request
 
 - **show**: read the portrait and present it faithfully in the user's language; tell them the file path and that they may edit it by hand.
-- **correct**: apply their correction exactly as stated; log `YYYY-MM-DD — user correction (用户手动纠正): <what changed>` in the Evidence log; show the affected section afterwards.
+- **correct**: apply their correction exactly as stated; update the "Last updated" date; show the affected section afterwards.
 - **pause**: `touch ~/.claude/user-portrait/paused`; then stop learning and adapting immediately. Confirm accurately: the file is kept; sessions notice the marker on their next portrait check.
 - **resume**: `rm -f ~/.claude/user-portrait/paused`.
 - **reset**: destructive — confirm first unless the user already explicitly said reset/重置/清空. Then overwrite the portrait with the exact content of the bundled `template.md`.

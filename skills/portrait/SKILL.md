@@ -20,11 +20,7 @@ Read `~/.claude/user-portrait/profile.md` and present its content faithfully in 
 
 ## correct
 
-Apply the user's correction to the file with Edit, exactly as they stated it: reword, move between sections, or delete entries as asked. Then:
-
-- add one line to the Evidence log: `YYYY-MM-DD — user correction (用户手动纠正): <what changed>`
-- update the "Last updated" date
-- show the affected section afterwards so they can confirm.
+Apply the user's correction to the file with Edit, exactly as they stated it: reword, move between sections, or delete entries as asked. Then update the "Last updated" date and show the affected section afterwards so they can confirm.
 
 ## pause
 

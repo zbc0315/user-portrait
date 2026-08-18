@@ -37,10 +37,3 @@ Last updated / 最后更新: never
 <!-- 只记表达方式：详略、语气、例子、面向的读者；不记协作规则或做事方式 -->
 
 - nothing recorded yet (尚无记录)
-
-## Evidence log / 证据摘记
-
-<!-- newest first, max 10 lines, abstract signals only — no task specifics -->
-<!-- 最新在上，最多 10 条；只记抽象信号，不记任务细节 -->
-
-- nothing recorded yet (尚无记录)
