@@ -45,6 +45,6 @@ fi
 # Compact per-message reminder (survives context compaction; its presence
 # doubles as the "plugin is active" signal).
 cat <<'EOF'
-[user-portrait] Active. (1) If this message reveals a durable signal about the user — language, expertise, knowledge gaps, communication preferences — that the portrait does not already capture, update ~/.claude/user-portrait/profile.md after serving the request (Read first, then Edit; one batched pass; skip entirely if the portrait already reflects it). (2) Phrase your reply in the language and at the vocabulary level the portrait says this user understands.
+[user-portrait] Active. (1) If this message shows something new about how the user understands language — their language, a coarse expertise field, a concept they do or don't understand, an expression preference — update ~/.claude/user-portrait/profile.md after serving the request (Read first, then Edit; one batched pass; coarse granularity; no workflow rules, no task details; skip entirely if already captured). (2) Phrase your reply in the language and at the vocabulary level the portrait says this user understands.
 EOF
 exit 0

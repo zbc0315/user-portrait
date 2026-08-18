@@ -24,7 +24,7 @@ Files (all local):
 - Follow their recorded communication preferences (detail level, examples, analogies, format).
 - Where the portrait is empty or silent, infer the best fit from how the user writes, and default to plain, jargon-light language.
 
-**2. Learn durable signals about the user from their messages:** the language they write in or ask for; domains where they show expertise (precise jargon used correctly, mentions of role/stack/experience); gaps (they ask what a term means, misunderstand a concept, ask for something simpler); communication preferences (shorter/longer, examples, analogies, tone, format).
+**2. Learn how this user understands language.** The portrait exists for one purpose: phrasing replies the user understands. Record ONLY what changes how you phrase things: the language they write in or ask for; expertise fields at COARSE granularity (e.g. "organic chemistry", "backend development" — the portrait is a vocabulary calibrator, not a resume: never record project names, codebases, detailed stacks, roles, or accomplishments); concept-level comprehension observed passively (a term they ask about, misuse, or that clearly did not land → "Needs explanation"; a concept they later use correctly after you explained it → "Understands without explanation"); and expression preferences only (detail level, tone, examples, reader-facing style). NEVER record workflow rules, task preferences, technical decisions, or how the user wants work done — out of scope no matter how useful they seem.
 
 WHEN to write the file — only if ALL of these hold:
 

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.0 — 2026-08-18
+
+Scope tightened after real-world use: the portrait is a vocabulary calibrator, not a resume or preference store.
+
+- Expertise is now recorded at coarse field granularity only (e.g. "organic chemistry") — project names, codebases, detailed stacks, roles, and accomplishments are explicitly out of scope.
+- Workflow rules, task preferences, and technical decisions are explicitly excluded from Communication preferences; only expression preferences (detail level, tone, examples, reader framing) are kept.
+- New passive comprehension channel: concepts the user asks about / misuses go to "Needs explanation"; concepts they later use correctly move to "Understands without explanation".
+- Evidence log entries must name signals in the abstract — no filenames, commands, project names, or job specifics.
+- Template comments and the OpenClaw skill variant updated to match.
+
 ## 0.1.0 — 2026-08-08
 
 Initial release.

@@ -56,14 +56,24 @@ portrait and stop applying these instructions until reminders reappear.
    - Where the portrait is empty or silent, infer the best fit from how the
      user writes, and default to plain, jargon-light language.
 
-2. LEARN durable signals about the user from their messages:
+2. LEARN how this user understands language. The portrait exists for ONE
+   purpose: phrasing replies the user understands. Record ONLY what changes
+   how you phrase things:
    - the language they write in, or explicitly ask you to use;
-   - domains where they show expertise (precise jargon used correctly,
-     mentions of their role, stack, or experience);
-   - gaps (they ask what a term means, misunderstand a concept, or ask for a
-     simpler explanation);
-   - communication preferences (shorter/longer answers, more or fewer
-     examples, analogies, tone, format).
+   - expertise fields at COARSE granularity (e.g. "organic chemistry",
+     "backend development") — just enough to know where jargon is safe.
+     The portrait is a vocabulary calibrator, not a resume: never record
+     project names, codebases, detailed stacks, roles, or accomplishments;
+   - concept-level comprehension, observed passively: when the user asks
+     what a term means, misuses one, or a term you used clearly did not
+     land, add that concept to "Needs explanation"; when they correctly
+     use a concept you once had to explain, move it to "Understands
+     without explanation";
+   - expression preferences ONLY: detail level, tone/register, examples
+     and analogies, reader-facing style. NEVER record workflow rules, task
+     preferences, technical decisions, or how the user wants work done —
+     those are out of scope no matter how useful they seem; leave them to
+     other memory systems.
 
    WHEN to write the file — only if ALL of these hold:
    - the signal is durable (about the person, not about today's task);
@@ -82,10 +92,11 @@ portrait and stop applying these instructions until reminders reappear.
    a new one; move items between sections as evidence changes (e.g. from
    "needs explanation" to "understands" once demonstrated); remove claims
    contradicted by new evidence. Add one dated line to the Evidence log per
-   new claim (keep at most 10 evidence lines and the whole file under 100
-   lines — compress before it grows past that) and update the "Last updated"
-   date. NEVER store task details, project content, secrets, credentials, or
-   one-off context — only durable facts about the person.
+   new claim, naming the signal in the abstract — never filenames, commands,
+   project names, or job specifics (keep at most 10 evidence lines and the
+   whole file under 100 lines — compress before it grows past that) and
+   update the "Last updated" date. NEVER store task details, project
+   content, secrets, credentials, or one-off context.
 
    PERMISSIONS: the first portrait write in a session may trigger a
    permission prompt — that is expected. If the user DECLINES it, make no

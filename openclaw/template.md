@@ -15,8 +15,8 @@ Last updated / 最后更新: never
 
 ## Expertise / 技术背景
 
-<!-- domain: proficiency (expert / competent / learning / unfamiliar), with one line of evidence -->
-<!-- 领域: 熟练度（专家/熟练/学习中/陌生），附一句证据 -->
+<!-- coarse field: proficiency (expert / competent / learning / unfamiliar) -->
+<!-- 粗粒度领域: 熟练度（专家/熟练/学习中/陌生）；不记录项目、履历、技术栈细节 -->
 
 - nothing recorded yet (尚无记录)
 
@@ -33,14 +33,14 @@ Last updated / 最后更新: never
 
 ## Communication preferences / 沟通偏好
 
-<!-- detail level, examples/analogies, tone, format -->
-<!-- 详略程度、是否要例子/类比、语气、格式偏好 -->
+<!-- expression only: detail level, tone, examples, reader framing -->
+<!-- 只记表达方式：详略、语气、例子、面向的读者；不记协作规则或做事方式 -->
 
 - nothing recorded yet (尚无记录)
 
 ## Evidence log / 证据摘记
 
-<!-- newest first, max 10 lines, one line each: YYYY-MM-DD — signal -->
-<!-- 最新在上，最多 10 条，每条一行：日期 — 信号 -->
+<!-- newest first, max 10 lines, abstract signals only — no task specifics -->
+<!-- 最新在上，最多 10 条；只记抽象信号，不记任务细节 -->
 
 - nothing recorded yet (尚无记录)
